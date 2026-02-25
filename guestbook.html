@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guestbook ♡</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background-color: #FFECEE;
+      color: #5e4b56;
+    }
+
+    .container {
+      width: 800px;
+      margin: 60px auto;
+      background: #FFE0E6;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      padding: 40px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 40px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      padding: 10px 20px;
+      background: #FFC9D6;
+      border-radius: 30px;
+      color: white;
+      font-size: 14px;
+      transition: 0.3s ease;
+    }
+
+    .nav a:hover {
+      background: #FEB1C6;
+      transform: translateY(-2px);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .receipt {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    }
+
+    .receipt-header {
+      text-align: center;
+      font-size: 26px;
+      color: #FEB1C6;
+      margin-bottom: 20px;
+    }
+
+    .field {
+      margin-bottom: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #FFD4DE;
+      border-radius: 10px;
+      font-family: Georgia, serif;
+      background: #FFF8FA;
+    }
+
+    textarea {
+      resize: none;
+      height: 120px;
+    }
+
+    button {
+      background: #FFC9D6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background: #FEB1C6;
+    }
+
+    .note {
+      font-size: 12px;
+      opacity: 0.6;
+      margin-top: 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="life.html">Life Updates</a>
+    <a href="diary.html">Diary</a>
+    <a href="music.html">On Repeat</a>
+    <a href="guestbook.html">Guestbook</a>
+    <a href="qa.html">Q&A</a>
+  </div>
+
+  <h1>Guest Check ♡</h1>
+
+  <div class="receipt">
+    <div class="receipt-header">
+      Guest Check
+    </div>
+
+    <form action="https://formspree.io/f/xwvnypnr" method="POST">
+      
+      <div class="field">
+        <label>Name (optional)</label>
+        <input type="text" name="name">
+      </div>
+
+      <div class="field">
+        <label>Message</label>
+        <textarea name="message" required></textarea>
+      </div>
+
+      <button type="submit">Submit ♡</button>
+
+      <div class="note">
+        thank you — please come again 🌸
+      </div>
+
+    </form>
+
+  </div>
+
+</div>
+
+</body>
+</html>
