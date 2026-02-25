@@ -99,6 +99,28 @@
       margin-top: 10px;
     }
 
+    .entries {
+      margin-top: 30px;
+    }
+
+    .entry-card {
+      background: #FFF8FA;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #FFD4DE;
+    }
+
+    .entry-name {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #FEB1C6;
+    }
+
+    .entry-message {
+      font-size: 14px;
+    }
+
   </style>
 </head>
 
@@ -118,12 +140,14 @@
   <h1>Guest Book ♡</h1>
 
   <div class="receipt">
+
     <div class="receipt-header">
-      Leave any questions/suggestions/comments/message ♡
+      Feel free to leave any questions/comments/suggestions/messages ♡
     </div>
 
+    <!-- FORM -->
     <form action="https://formspree.io/f/xwvnypnr" method="POST">
-      
+
       <div class="field">
         <label>Name (optional)</label>
         <input type="text" name="name">
@@ -141,6 +165,29 @@
       </div>
 
     </form>
+
+    <!-- DISPLAY SECTION -->
+    <hr style="margin:40px 0; border: none; height:1px; background:#FFD4DE;">
+
+    <h2 style="text-align:center; color:#FEB1C6;">Your messages ♡</h2>
+
+    <div class="entries">
+
+      <div class="entry-card">
+        <div class="entry-name">Anonymous</div>
+        <div class="entry-message">
+          this site feels like soft nostalgia 🌸
+        </div>
+      </div>
+
+      <div class="entry-card">
+        <div class="entry-name">Luna</div>
+        <div class="entry-message">
+          the blossom theme is so pretty ♡
+        </div>
+      </div>
+
+    </div>
 
   </div>
 
