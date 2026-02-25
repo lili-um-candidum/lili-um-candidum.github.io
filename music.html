@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>On Repeat ♡</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background-color: #FFECEE;
+      color: #5e4b56;
+    }
+
+    .container {
+      width: 1000px;
+      margin: 60px auto;
+      background: #FFE0E6;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      padding: 40px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 40px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      padding: 10px 20px;
+      background: #FFC9D6;
+      border-radius: 30px;
+      color: white;
+      font-size: 14px;
+      transition: 0.3s ease;
+    }
+
+    .nav a:hover {
+      background: #FEB1C6;
+      transform: translateY(-2px);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+
+    .song-card {
+      background: white;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    }
+
+    .song-card h3 {
+      margin-top: 0;
+    }
+
+    .note {
+      font-size: 14px;
+      opacity: 0.8;
+      margin-bottom: 15px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="life.html">Life Updates</a>
+    <a href="diary.html">Diary</a>
+    <a href="music.html">On Repeat</a>
+    <a href="guestbook.html">Guestbook</a>
+    <a href="qa.html">Q&A</a>
+  </div>
+
+  <h1>On Repeat ♡</h1>
+
+  <div class="grid">
+
+    <div class="song-card">
+      <h3>Song Title</h3>
+      <div class="note">why I love this song goes here 🌸</div>
+      <!-- Spotify embed below -->
+      <<iframe style="border-radius:12px" 
+        src="https://open.spotify.com/embed/track/1fi6WJYdiFQ7gEtAtJ8NH6?utm_source=generator" 
+        width="100%" 
+        height="352" 
+        frameBorder="0" 
+        allowfullscreen="" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+      </iframe>
+    </div>
+
+    <div class="song-card">
+      <h3>Another Song</h3>
+      <div class="note">soft evening energy</div>
+      <iframe style="border-radius:12px" 
+        src="https://open.spotify.com/embed/track/PUT_TRACK_ID_HERE" 
+        width="100%" 
+        height="152" 
+        frameBorder="0" 
+        allowfullscreen="" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+      </iframe>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
