@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diary ♡</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background-color: #FFECEE;
+      color: #5e4b56;
+    }
+
+    .container {
+      width: 1000px;
+      margin: 60px auto;
+      background: #FFE0E6;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      padding: 40px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 40px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      padding: 10px 20px;
+      background: #FFC9D6;
+      border-radius: 30px;
+      color: white;
+      font-size: 14px;
+      transition: 0.3s ease;
+    }
+
+    .nav a:hover {
+      background: #FEB1C6;
+      transform: translateY(-2px);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .archive {
+      background: white;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    }
+
+    .archive a {
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+      color: #5e4b56;
+    }
+
+    .archive a:hover {
+      color: #FEB1C6;
+    }
+
+    .entry {
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    }
+
+    .date {
+      font-size: 13px;
+      opacity: 0.6;
+      margin-bottom: 15px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="life.html">Life Updates</a>
+    <a href="diary.html">Diary</a>
+    <a href="music.html">On Repeat</a>
+    <a href="guestbook.html">Guestbook</a>
+    <a href="qa.html">Q&A</a>
+  </div>
+
+  <h1>Diary ♡</h1>
+
+  <div class="layout">
+
+    <div class="archive">
+      <strong>Archive</strong>
+      <a href="#">February 24, 2026</a>
+      <a href="#">February 10, 2026</a>
+      <a href="#">January 28, 2026</a>
+    </div>
+
+    <div class="entry">
+      <div class="date">February 24, 2026</div>
+      <p>
+        Today felt slow in a good way.  
+        I’ve been thinking about consistency instead of intensity.  
+        Maybe that’s growth.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
